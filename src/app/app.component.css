@@ -1,0 +1,11 @@
+#id{
+    color: red;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border: 100px;
+    
+    
+}
+table,th,td{
+    border: 2px solid black;
+}

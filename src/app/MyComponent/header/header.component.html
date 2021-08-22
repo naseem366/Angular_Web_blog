@@ -1,0 +1,26 @@
+<p>header works!</p>
+
+
+<div style="text-align:center;">
+<h1>Welcome to {{title}}</h1>
+<table width="100%" >
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Address</th>
+<th>City</th>
+<th>State</th>
+<th>Country</th>
+</tr>
+<tr *ngFor="let user of userData">
+<td>{{user.id}}</td>
+<td>{{user.name}}</td>
+<td>{{user.email}}</td>
+<td>{{user.address}},{{user.zipcode}}</td>
+<td>{{user.city}}</td>
+<td>{{user.state}}</td>
+<td>{{user.country}}</td>
+</tr>
+</table>
+</div>
